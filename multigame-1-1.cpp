@@ -296,9 +296,9 @@ void playHalu() {
     int r2;
 
     if (choice == 1) {
-        slowPrint("Kenji: \"Tch… why are you here again, " + name + "?\"\n\n", 15);
+        slowPrint("Kenji: \"Tch... why are you here again, " + name + "?\"\n\n", 15);
         cout << "1. \"Relax. I just missed you.\"\n";
-        cout << "2. \"I’m here to beat you.\"\n";
+        cout << "2. \"I'm here to beat you.\"\n";
         cout << "Choice: ";
         cin  >> r;
         cout << '\n';
@@ -306,69 +306,69 @@ void playHalu() {
         if (r == 1) {
             slowPrint("Kenji: \"H-hah?! Who said I was waiting for you?\"\n", 15);
             slowPrint("       (His cheeks are way too red.)\n", 15);
-            slowPrint("Kenji: \"...Next time you leave, tell me. I don’t like it when you disappear like that.\"\n\n", 15);
+            slowPrint("Kenji: \"...Next time you leave, tell me. I don't like it when you disappear like that.\"\n\n", 15);
 
             cout << "Kenji: \"Hey, " << name << "...\"\n";
-            cout << "Kenji: \"If one day you really stop coming… where am I supposed to look for you?\"\n";
-            cout << "1. \"Look for me on the school rooftop. I’ll be waiting.\"\n";
-            cout << "2. \"Just call my name. I’ll come back on my own.\"\n";
+            cout << "Kenji: \"If one day you really stop coming... where am I supposed to look for you?\"\n";
+            cout << "1. \"Look for me on the school rooftop. I'll be waiting.\"\n";
+            cout << "2. \"Just call my name. I'll come back on my own.\"\n";
             cout << "Choice: ";
             cin  >> r2;
             cout << '\n';
 
             if (r2 == 1) {
                 slowPrint("Kenji: \"Hmph... dramatic much.\"\n", 15);
-                slowPrint("Kenji: \"If you don’t show up there, I’ll drag you down from every classroom one by one.\"\n", 15);
+                slowPrint("Kenji: \"If you don't show up there, I'll drag you down from every classroom one by one.\"\n", 15);
                 currentUser.score   += 18;
                 currentUser.balance += 70;
                 cout << "\n[Ending: Rooftop Promise] [+18 Score, +70 Balance]\n";
             } else {
                 slowPrint("Kenji: \"...Seriously. You talk like an anime protagonist.\"\n", 15);
-                slowPrint("Kenji: \"Then don’t make me wait too long, got it?\"\n", 15);
+                slowPrint("Kenji: \"Then don't make me wait too long, got it?\"\n", 15);
                 currentUser.score   += 14;
                 currentUser.balance += 60;
                 cout << "\n[Ending: Call My Name] [+14 Score, +60 Balance]\n";
             }
         } else {
             slowPrint("Kenji: \"Beat me? Dream big, huh.\"\n", 15);
-            slowPrint("Kenji: \"...But to be honest, you’ve gotten way stronger since last time.\" *glances briefly*\n\n", 15);
+            slowPrint("Kenji: \"...But to be honest, you've gotten way stronger since last time.\" *glances briefly*\n\n", 15);
 
             cout << "Kenji: \"How many hours do you train a day to get this far?\"\n";
             cout << "1. \"Enough that I lose track of time.\"\n";
-            cout << "2. \"Not much. I just don’t want to lose to you.\"\n";
+            cout << "2. \"Not much. I just don't want to lose to you.\"\n";
             cout << "Choice: ";
             cin  >> r2;
             cout << '\n';
 
             if (r2 == 1) {
-                slowPrint("Kenji: \"Idiot. Don’t get sick just because you want to catch up to me.\"\n", 15);
-                slowPrint("Kenji: \"...If you collapse, who’s gonna be my rival?\"\n", 15);
+                slowPrint("Kenji: \"Idiot. Don't get sick just because you want to catch up to me.\"\n", 15);
+                slowPrint("Kenji: \"...If you collapse, who's gonna be my rival?\"\n", 15);
                 currentUser.score   += 16;
                 currentUser.balance += 55;
                 cout << "\n[Ending: Overtraining Rival] [+16 Score, +55 Balance]\n";
             } else {
                 slowPrint("Kenji: \"Heh. So you train because of me, huh?\"\n", 15);
-                slowPrint("Kenji: \"Then don’t even think about quitting halfway. I won’t accept a weak rival.\"\n", 15);
+                slowPrint("Kenji: \"Then don't even think about quitting halfway. I won't accept a weak rival.\"\n", 15);
                 currentUser.score   += 15;
                 currentUser.balance += 50;
                 cout << "\n[Ending: For You, Rival] [+15 Score, +50 Balance]\n";
             }
         }
     } else if (choice == 2) {
-        slowPrint("Leo: \"Hiiii " + name + "! You really came~ I’ve been waiting, y’know.\"\n\n", 15);
+        slowPrint("Leo: \"Hiiii " + name + "! You really came~ I've been waiting, y'know.\"\n\n", 15);
         cout << "1. \"You really waited for me?\"\n";
-        cout << "2. \"You’re so clingy, Leo…\"\n";
+        cout << "2. \"You're so clingy, Leo...\"\n";
         cout << "Choice: ";
         cin  >> r;
         cout << '\n';
 
         if (r == 1) {
-            slowPrint("Leo: \"Of course. When you’re not here, everything feels empty.\"\n", 15);
+            slowPrint("Leo: \"Of course. When you're not here, everything feels empty.\"\n", 15);
             slowPrint("Leo: \"Is it okay if I stay by your side like this forever?\"\n\n", 15);
 
             cout << "Leo: \"If one day I suddenly disappear from here...\"\n";
             cout << "Leo: \"Where would you look for me first?\"\n";
-            cout << "1. \"Every place we’ve been together.\"\n";
+            cout << "1. \"Every place we've been together.\"\n";
             cout << "2. \"The place we first met.\"\n";
             cout << "Choice: ";
             cin  >> r2;
@@ -376,22 +376,22 @@ void playHalu() {
 
             if (r2 == 1) {
                 slowPrint("Leo: \"Ehehe~ that sounds like a high-budget romance route. I love it.\"\n", 15);
-                slowPrint("Leo: \"If that’s the case, I’ll leave clues so you can find me faster.\"\n", 15);
+                slowPrint("Leo: \"If that's the case, I'll leave clues so you can find me faster.\"\n", 15);
                 currentUser.score   += 18;
                 currentUser.balance += 50;
                 cout << "\n[Ending: Chasing Footprints] [+18 Score, +50 Balance]\n";
             } else {
                 slowPrint("Leo: \"Eh? You still remember that place?\"\n", 15);
-                slowPrint("Leo: \"If you really go there just to find me… I won’t leave you again, promise.\"\n", 15);
+                slowPrint("Leo: \"If you really go there just to find me... I won't leave you again, promise.\"\n", 15);
                 currentUser.score   += 16;
                 currentUser.balance += 45;
                 cout << "\n[Ending: First Meeting, Again] [+16 Score, +45 Balance]\n";
             }
         } else {
-            slowPrint("Leo: \"Ehhh? But I like being close to you…\"\n", 15);
-            slowPrint("Leo: \"Okay… I’ll step back a little. Just don’t push me too far, okay?\"\n\n", 15);
+            slowPrint("Leo: \"Ehhh? But I like being close to you...\"\n", 15);
+            slowPrint("Leo: \"Okay... I'll step back a little. Just don't push me too far, okay?\"\n\n", 15);
 
-            cout << "Leo: \"If I keep this distance… would you still look my way?\"\n";
+            cout << "Leo: \"If I keep this distance... would you still look my way?\"\n";
             cout << "1. \"Yeah. My eyes are used to searching for you.\"\n";
             cout << "2. \"Depends. Are you still smiling at me?\"\n";
             cout << "Choice: ";
@@ -399,37 +399,37 @@ void playHalu() {
             cout << '\n';
 
             if (r2 == 1) {
-                slowPrint("Leo: \"Hehe… don’t say stuff like that or I won’t be able to step back at all.\"\n", 15);
-                slowPrint("Leo: \"If your eyes always look for me, I promise I’ll always stay in your sight.\"\n", 15);
+                slowPrint("Leo: \"Hehe... don't say stuff like that or I won't be able to step back at all.\"\n", 15);
+                slowPrint("Leo: \"If your eyes always look for me, I promise I'll always stay in your sight.\"\n", 15);
                 currentUser.score   += 14;
                 currentUser.balance += 35;
                 cout << "\n[Ending: Always in Sight] [+14 Score, +35 Balance]\n";
             } else {
                 slowPrint("Leo: \"Ooh, so the key is my smile, huh?\"\n", 15);
-                slowPrint("Leo: \"Then from now on, I’ll smile every time you look at me. Don’t get startled.\"\n", 15);
+                slowPrint("Leo: \"Then from now on, I'll smile every time you look at me. Don't get startled.\"\n", 15);
                 currentUser.score   += 13;
                 currentUser.balance += 30;
                 cout << "\n[Ending: Smile Trigger] [+13 Score, +30 Balance]\n";
             }
         }
     } else if (choice == 3) {
-        slowPrint("Kurama: \"So, you dare approach me… " + name + ".\"\n", 15);
+        slowPrint("Kurama: \"So, you dare approach me... " + name + ".\"\n", 15);
         slowPrint("        (His heavy aura makes the air vibrate.)\n\n", 15);
 
-        cout << "1. \"I’m not afraid of you.\"\n";
+        cout << "1. \"I'm not afraid of you.\"\n";
         cout << "2. \"I came because I trust you.\"\n";
         cout << "Choice: ";
         cin  >> r;
         cout << '\n';
 
         if (r == 1) {
-            slowPrint("Kurama: \"Your courage borders on stupidity… but it’s interesting.\"\n", 15);
-            slowPrint("Kurama: \"Prove it again next time, and maybe I’ll acknowledge you as a partner.\"\n\n", 15);
+            slowPrint("Kurama: \"Your courage borders on stupidity... but it's interesting.\"\n", 15);
+            slowPrint("Kurama: \"Prove it again next time, and maybe I'll acknowledge you as a partner.\"\n\n", 15);
 
             cout << "Kurama: \"If the world turns against you because you stand by my side...\"\n";
             cout << "Kurama: \"Will you still call my name without fear?\"\n";
-            cout << "1. \"As long as you’re on my side, I won’t step back.\"\n";
-            cout << "2. \"I’ll shout your name even louder.\"\n";
+            cout << "1. \"As long as you're on my side, I won't step back.\"\n";
+            cout << "2. \"I'll shout your name even louder.\"\n";
             cout << "Choice: ";
             cin  >> r2;
             cout << '\n';
@@ -441,17 +441,17 @@ void playHalu() {
                 currentUser.balance += 70;
                 cout << "\n[Ending: Unshaken Partner] [+20 Score, +70 Balance]\n";
             } else {
-                slowPrint("Kurama: \"You’re insane… but courage like that isn’t easily broken.\"\n", 15);
-                slowPrint("Kurama: \"If you call me, I will answer. Don’t forget your own words.\"\n", 15);
+                slowPrint("Kurama: \"You're insane... but courage like that isn't easily broken.\"\n", 15);
+                slowPrint("Kurama: \"If you call me, I will answer. Don't forget your own words.\"\n", 15);
                 currentUser.score   += 18;
                 currentUser.balance += 65;
                 cout << "\n[Ending: Roaring Name] [+18 Score, +65 Balance]\n";
             }
         } else {
             slowPrint("Kurama: \"...Trust? In a beast like me?\"\n", 15);
-            slowPrint("Kurama: \"Don’t betray that trust, or I will drag you from the darkness myself.\"\n\n", 15);
+            slowPrint("Kurama: \"Don't betray that trust, or I will drag you from the darkness myself.\"\n\n", 15);
 
-            cout << "Kurama: \"What makes you confident enough to entrust your back to a ‘monster’?\"\n";
+            cout << "Kurama: \"What makes you confident enough to entrust your back to a ‘monster'?\"\n";
             cout << "1. \"Because you never lie about who you are.\"\n";
             cout << "2. \"Because even monsters can be a safe home.\"\n";
             cout << "Choice: ";
@@ -460,13 +460,13 @@ void playHalu() {
 
             if (r2 == 1) {
                 slowPrint("Kurama: \"Honesty about the darkness, hm? Humans usually run from that.\"\n", 15);
-                slowPrint("Kurama: \"As long as you look at me like that, I won’t betray your trust.\"\n", 15);
+                slowPrint("Kurama: \"As long as you look at me like that, I won't betray your trust.\"\n", 15);
                 currentUser.score   += 22;
                 currentUser.balance += 80;
                 cout << "\n[Ending: Honest Darkness] [+22 Score, +80 Balance]\n";
             } else {
-                slowPrint("Kurama: \"Calling the place beside me a ‘home’... you’re a strange creature.\"\n", 15);
-                slowPrint("Kurama: \"Fine. From now on, anyone who disturbs that ‘home’ will face me first.\"\n", 15);
+                slowPrint("Kurama: \"Calling the place beside me a ‘home'... you're a strange creature.\"\n", 15);
+                slowPrint("Kurama: \"Fine. From now on, anyone who disturbs that ‘home' will face me first.\"\n", 15);
                 currentUser.score   += 25;
                 currentUser.balance += 90;
                 cout << "\n[Ending: Home of the Beast] [+25 Score, +90 Balance]\n";
